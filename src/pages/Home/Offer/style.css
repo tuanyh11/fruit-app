@@ -1,0 +1,28 @@
+.offer-content > h1 {
+    font-size: 30px;
+    position: relative;
+}
+
+.offer-content[data-active="line"] > h1::after {
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    content: "";
+    background: #fff;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -25px;
+    top: 44%;
+}
+
+.offer-content > h1 span {  
+    font-size: 30px;
+    font-weight: 700;
+    
+    margin-top: 18px; 
+}
+
+.offer-content[data-active="line"] > h1 span {
+    display: block;
+
+}
